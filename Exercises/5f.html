@@ -1,25 +1,43 @@
 <style>
-    .par1{
-        font-weight:bold;
-        font-size:20px;
-        font-style:Arial;
-    }
-    .span1{
-        color:gray;
-        font-size:15px;
-    }
-    .par2{
-        color:green;
-        font-weight:bold;
-    }
-    .par3{
-        color:gray;
-    }
-    .span2{
-        color:red;
-    }
+  p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .price {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .currency {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+  }
+
+  .change {
+    color: rgb(24, 128, 56);
+    margin-bottom: 8px;
+  }
+
+  .after-hours {
+    color: rgb(100, 100, 100);
+  }
+
+  .after-hours-change {
+    color: rgb(235, 39, 39);
+  }
 </style>
 
-<p class="par1">1,049.61 <span class="span1">USD</span></p>
-<p class="par2">+18.05 (1.75%) today</p>
-<p class="par3">After hours 1,048.00 <span class="span2">-1.61 (0.15%)</span></p>
+<p class="price">
+  1,049.61 <span class="currency">USD</span>
+</p>
+
+<p class="change">
+  +18.05 (1.75%) today
+</p>
+
+<p class="after-hours">
+  After hours 1,048.00
+  <span class="after-hours-change">-1.61 (0.15%)</span>
+</p>
